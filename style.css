@@ -343,7 +343,7 @@ nav .fa-solid{
     display:none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 550px){
     #header{    
         background-image:url(Images/designphonre.png);
     }
@@ -387,12 +387,23 @@ nav .fa-solid{
     .contact-left,.contact-right{
         flex-basis:100%;
     }
-    
+    .contact-left{
+        display:block;
+        text-align:center;
+        
+    }
+    .btn.btn2{
+        display:block;
+        
+    }
 
 }
+
+   
 #msg{
     color:green;
     margin-top:-40px;
     
     display:block;
 }
+/*320px, 768px, and 1200px*/
