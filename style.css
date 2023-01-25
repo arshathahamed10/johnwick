@@ -381,7 +381,7 @@ nav .fa-solid{
         left:25px;
         cursor:pointer;
     }
-    .col-1 ,.col-2{
+    .col-1 {
         flex-basis:100%;
     }
     .contact-left,.contact-right{
@@ -395,6 +395,11 @@ nav .fa-solid{
     .btn.btn2{
         display:block;
         
+    }
+    .col-2{
+        
+        width:300px;
+
     }
 
 }
