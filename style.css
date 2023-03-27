@@ -428,9 +428,10 @@ nav .fa-solid{
 
 }
 
-@media only screen and (min-width:319px) and (max-width : 499px){
+@media only screen and (min-width:300px) and (max-width : 499px){
 
-    #header{    
+    #header{ 
+        width:100%;   
         background-image:url(Images/300.png);
     }
     .header-text{
@@ -515,6 +516,10 @@ nav .fa-solid{
     }
     .work{
         margin:20px;
+        height:80%;
+    }
+    .abouts{
+        width:300px;
     }
     
 }
