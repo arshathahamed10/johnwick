@@ -329,7 +329,8 @@ form .btn2{
 
 }
 .copyright{
-    width:100%;
+    display:block;
+    width:110%;
     font-weight: 300;
     text-align:center;
     margin-top:20px;
@@ -428,11 +429,15 @@ nav .fa-solid{
 
 }
 
-@media only screen and (min-width:300px) and (max-width : 499px){
-
+@media  (min-width:300px) and (max-width : 499px){
+    body{
+        width:110%;
+    }
     #header{ 
-        width:100%;   
+        width:110%;  
+        
         background-image:url(Images/300.png);
+        
     }
     .header-text{
         margin-top: 100%;
@@ -475,9 +480,10 @@ nav .fa-solid{
     .col-1 
     {
         flex-basis:100%;
+        margin-left:30px;
     }
     .sub-title {
-        margin-left:75px;
+        text-align:center;
     }
     .tab-contents ul li{
         width:90%;
@@ -486,40 +492,46 @@ nav .fa-solid{
     {
         width:100%;
         font-size:50px;
-        margin-left:-20px;
+        margin-left: 0px;
     }
     .contact-left p{
         
-        width:300px;
+        width:100%;
         text-align:center;
+        margin-left:50px;
         
     }
     .contact-left h2{
         
-        width:300px;
+        width:100%;
         font-size:40px;
         margin-left:60px;
         
     }
     .contact-right{
         flex-basis:100%;
+        margin-left:30px;
     }
     .social-icons{
-        width:300px;
+        width:100%;
         text-align:center;
+        margin-left:55px;
     }
-    .btn.btn2 {
-        text-align:center;
-        width:300px;
-        margin-left:10px;
-       
-    }
+    
     .work{
-        margin:20px;
+        margin:20px 0 0 30px;
         height:80%;
     }
     .abouts{
-        width:300px;
+        width:100%;
+    }
+    .life{
+        margin-left:30px;
+    }
+    .btn.btn2{
+        display:block;
+        margin-left:80px;
+        
     }
     
 }
