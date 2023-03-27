@@ -88,6 +88,8 @@ nav ul li a:hover::after{
     flex-wrap:wrap;
 }
 .col-1{
+    
+    width:100%;
     flex-basis: 30%;
     
 }
@@ -340,6 +342,12 @@ form .btn2{
 nav .fa-solid{
     display:none;
 }
+#msg{
+    color:green;
+    margin-top:-40px;
+    
+    display:block;
+}
 
 @media only screen and (min-width:500px) and (max-width : 992px){
     
@@ -410,7 +418,7 @@ nav .fa-solid{
     }
     .work{
         
-        margin:0px 60px;
+        margin:0px 40px;
 
 
     }
@@ -421,19 +429,96 @@ nav .fa-solid{
 }
 
 @media only screen and (min-width:319px) and (max-width : 499px){
+
+    #header{    
+        background-image:url(Images/300.png);
+    }
     .header-text{
-        margin-top: 70%;
+        margin-top: 100%;
         font-size: 14px;
         margin-left:-10px;
         
     }
+    .header-text h1{
+        font-size:25px;
+    }
+    .logo{
+        width:60%;
+        margin: 20px 0 0 0px;
+    }
+    nav .fa-solid{
+        display:block;
+        cursor:pointer;
+    }
+    nav ul {
+        background:dodgerblue;
+        position: fixed;
+        top:0;
+        right:-200px;
+        width:180px;
+        height:100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display:block;
+        margin:25px;
+    }
+    nav ul .fa-solid{
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+    }
+    .col-1 
+    {
+        flex-basis:100%;
+    }
+    .sub-title {
+        margin-left:75px;
+    }
+    .tab-contents ul li{
+        width:90%;
+    }
+    #myport h2
+    {
+        width:100%;
+        font-size:50px;
+        margin-left:-20px;
+    }
+    .contact-left p{
+        
+        width:300px;
+        text-align:center;
+        
+    }
+    .contact-left h2{
+        
+        width:300px;
+        font-size:40px;
+        margin-left:60px;
+        
+    }
+    .contact-right{
+        flex-basis:100%;
+    }
+    .social-icons{
+        width:300px;
+        text-align:center;
+    }
+    .btn.btn2 {
+        text-align:center;
+        width:300px;
+        margin-left:10px;
+       
+    }
+    .work{
+        margin:20px;
+    }
+    
 }
 
    
-#msg{
-    color:green;
-    margin-top:-40px;
-    
-    display:block;
-}
+
 /*320px, 768px, and 1200px*/
