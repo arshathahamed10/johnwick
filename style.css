@@ -356,8 +356,8 @@ nav .fa-solid{
         background-image:url(Images/designphonre.png);
     }
     .header-text{
-        
-        margin-top:100%;
+        position:absolute;
+        top:50%;
         font-size: 16px;
         margin-left:10px;
     }
@@ -431,18 +431,18 @@ nav .fa-solid{
 
 @media  (min-width:300px) and (max-width : 499px){
     body{
-        width:110%;
+        width:100%;
     }
     #header{ 
-        width:110%;  
+        width:100%;  
         
         background-image:url(Images/300.png);
         
     }
     .header-text{
-        margin-top: 100%;
+        position:absolute;
         font-size: 14px;
-        margin-left:-10px;
+        top:60%;
         
     }
     .header-text h1{
@@ -484,6 +484,7 @@ nav .fa-solid{
     }
     .sub-title {
         text-align:center;
+        width:80%;
     }
     .tab-contents ul li{
         width:90%;
@@ -498,7 +499,6 @@ nav .fa-solid{
         
         width:100%;
         text-align:center;
-        margin-left:50px;
         
     }
     .contact-left h2{
@@ -523,7 +523,8 @@ nav .fa-solid{
         height:80%;
     }
     .abouts{
-        width:100%;
+        width:80%;
+        text-align: center;
     }
     .life{
         margin-left:30px;
@@ -534,7 +535,7 @@ nav .fa-solid{
         
     }
     .copyright{
-        width:110%;
+        width:100%;
     }
     
 }
