@@ -322,7 +322,7 @@ nav .fa-solid{
     
     display:block;
 }
-@media only screen and (min-width:300px) and (max-width : 992px){
+@media only screen and (max-width : 992px){
     .tab-links{
         margin : 10px 20px;
     }
@@ -390,3 +390,11 @@ nav .fa-solid{
     }
 }
 
+@media only screen and (max-width : 399px){
+    .abouts{
+        font-size: 16px;
+    }
+    .tab-titles{
+        margin-left: -10px;
+    }
+}
